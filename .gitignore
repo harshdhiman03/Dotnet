@@ -1,0 +1,71 @@
+# .NET Core
+**/*.user
+**/*.suo
+**/*.sln.docstates
+**/*.cache
+**/bin/
+**/obj/
+**/packages/
+**/.vs/
+**/.vscode/settings.json
+**/*.userosscache
+**/*.sln.ide/
+
+# User-specific files
+.vsconfig
+
+# Dependencies
+packages/
+*.nupkg
+// nuget cache
+%UserProfile%\.nuget\packages/**/*
+**/*.nuget.props
+**/*.nuget.targets
+**/*.nuget.cache
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider
+**/packages/repositories.config
+/**/project.lock.json
+project.lock.json.lock
+*.dotSettings.user
+!.vsconfig
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
